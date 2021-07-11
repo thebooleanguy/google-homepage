@@ -3,12 +3,62 @@
     <head>
         <meta charset="utf-8" />
         <title>Google</title>
-        <link rel=”stylesheet” href="/styles/normalize.css" />
-        <link rel=”stylesheet” href="/styles/main.css" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="styles/main.css" /> 
     </head>
     <body>
-        <div id="logo">
-            <img src="images/logo.png" alt="The Google Logo">
+        <nav id="header">
+            <p id="gmail-images">
+                <a href="#" class="nav-links-1">Gmail</a>
+            </p>
+            <p id="gmail-images">
+                <a href="#" class="nav-links-1">Images</a>
+            </p>
+            <p id="apps">
+                <a href="#" class="nav-links-2">
+                    <span class="material-icons-outlined">apps</span>
+                </a>
+            </p>
+            <button type="button" id="sign-in-btn">Sign in</button>
+        </nav>
+        <div id="logo-search-buttons-container">
+            <div id="logo">
+                <img src="images/logo.png" alt="The Google Logo" width="272" height="92">
+            </div>
+            <div id="search-bar-container">
+                <form>
+                    <span id="search-icon">search</span>
+                    <input type="text" id="search-bar" name="search-bar" autofocus="autofocus" />
+                    <div class="buttons">
+                        <button type="button" id="search-btn">Google Search</button>
+                        <button type="button" id="lucky-btn">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
         </div>
+        <footer id="footer">
+            <p class="footer-links-left">
+                <a class="footer-links-left" href="#">About</a>
+            </p>
+            <p class="footer-links-left">
+                <a class="footer-links-left" href="#">Advertising</a>
+            </p>
+            <p class="footer-links-left">
+                <a class="footer-links-left" href="#">Business</a>
+            </p>
+            <p class="footer-links-left">
+                <a class="footer-links-left" href="#">How Search works</a>
+            </p>
+            <p class="footer-links-right" id="privacy">
+                <a class="footer-links-right" href="#">Privacy</a>
+            </p>
+            <p class="footer-links-right">
+                <a class="footer-links-right" href="#">Terms</a>
+            </p>
+            <p class="footer-links-right">
+                <a class="footer-links-right" href="#">Settings</a>
+            </p>
+        </footer>
     </body>
 </html>

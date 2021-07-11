@@ -1,3 +1,145 @@
-body {
-  background-color: aqua;
+#logo-search-buttons-container {
+  text-align: center;
+  position: relative;
+  top: 12rem;
+}
+#logo {
+}
+#search-bar-container {
+  position: relative;
+  top: 1.5rem;
+}
+#search-bar {
+  outline: none;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #3c4043;
+  width: 32.5rem;
+  height: 2.6rem;
+  border: 1px solid #dfe1e5;
+  border-radius: 2rem;
+  padding-left: 3em;
+}
+#search-bar:hover {
+  box-shadow: 0 0 5px #e3e3e4;
+}
+#search-icon {
+  text-decoration: none;
+  font-family: "Material Icons";
+  position: relative;
+  top: 0.2rem;
+  left: 2.2rem;
+}
+.buttons {
+  position: relative;
+  top: 1.81rem;
+}
+#search-btn,
+#lucky-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: #3c4043;
+  border: none;
+  background-color: #f8f9fa;
+  height: 2.5rem;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#search-btn:hover,
+#lucky-btn:hover {
+  outline: #e3e3e4 solid 1px;
+  box-shadow: 0 0 1px #e3e3e4;
+}
+
+.nav-links-1 {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #212121;
+  position: relative;
+  top: 0.25rem;
+}
+.nav-links-1:hover {
+  text-decoration: underline;
+}
+.nav-links-2 {
+  text-decoration: none;
+  font-family: "Material Icons";
+  font-size: 1.4rem;
+  color: #5f6368;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+.nav-links-2:hover {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  padding: 0.4em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+#header {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
+  margin-right: 15px;
+}
+.gmail-images {
+  order: 1;
+}
+#apps {
+  order: 2;
+}
+#apps-icon:hover {
+}
+#sign-in-btn {
+  order: 3;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 35px;
+  flex-basis: 100px;
+}
+#sign-in-btn:hover {
+  background-color: #0f8beb;
+}
+
+.footer-links-left {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #71767b;
+  padding-left: 1vh;
+}
+.footer-links-right {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #71767b;
+  padding-right: 1vh;
+}
+#privacy {
+  margin-left: auto;
+}
+.footer-links-left:hover,
+.footer-links-right:hover {
+  text-decoration: underline;
+}
+#footer {
+  position: relative;
+  top: 68.6vh;
+  display: flex;
+  column-gap: 10px;
+  background-color: #f2f2f2;
+  border-top: solid thin #dadce0;
 }
